@@ -1,4 +1,4 @@
-# FCC-APIs-project-Timestamp-Microservice-
+# FCC-APIs-project-Timestamp-Microservice
 ## Usage: 
 1. The API endpoint is `GET [project_url]/api/timestamp/:date_string?`
 2. Only accepts valid date strings that can be parsed by the `Date.parse(date_string)` method. Note that to ensure an UTC timestamp, date strings should be compliant with ISO-8601 (e.g. `"2016-11-20"`).
